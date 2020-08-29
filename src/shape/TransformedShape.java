@@ -10,12 +10,12 @@ public class TransformedShape implements Shape {
 	/*
 	The base shape of this transformed shape.
 	 */
-	public final Shape shape;
+	private final Shape shape;
 
 	/*
 	The transformation of this transformed shape.
 	 */
-	public final Transformation transform;
+	private final Transformation transform;
 
 
 	/*
